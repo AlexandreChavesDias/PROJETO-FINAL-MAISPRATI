@@ -20,3 +20,8 @@ Sugestão de campos para a tabela de bikes: descrição, modelo, preço que pago
 O objetivo final é que você crie uma aplicação com Spring e as características abaixo: Usar Spring boot e autenticação com spring security (autenticação via JDBC) Usar banco MySQL ou PostgreSQL Adicionar testes unitários; Armazenar no GitHub (conta pessoal e repositórios públicos) Usar as features do Java 8/11 de streams apropriadamente.
 
 Opcionais: Usar JPA e disponibilizar a versão final em uma nuvem pública (como AWS, Heroku, DigitalOcean, ou GCP)
+
+------------------------------------------------------------------------------------------------------------------------
+http://localhost:8080/oauth/token
+Parâmetros no Body: grant_type=password, username=admin e password=123456
+Parâmetro de Basic Auth: username=client, password=123(esses são os client_id e secret_id)
